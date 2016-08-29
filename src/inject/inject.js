@@ -3,7 +3,7 @@
       if (document.readyState === "complete") {
         clearInterval(readyStateCheckInterval);
 
-        var navigationTab = ".notification-center .tabnav .right"
+        var navigationTab = ".notification-center .tabnav .float-right"
         $(navigationTab).append('<a href="#mute_notifications" class="btn btn-sm mute_closed">Mute closed issues</a>')
         $(navigationTab).append('<a href="#mute_notifications" class="btn btn-sm mute_merged" style="margin-left: 3px;">Mute merged PRs</a>')
 
